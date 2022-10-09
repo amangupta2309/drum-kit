@@ -1,0 +1,46 @@
+body{
+  background-color: #283149;
+  user-select: none;
+}
+h1{
+  text-align: center;
+  color: #6366f1;
+  font-size: 5rem;
+  text-shadow:0 0 1rem #3b3d9b;
+}
+li{
+  list-style: none;
+  width: 7rem;
+  height: 7rem;
+  background-color: #fff;
+  border: #404b69 solid;
+  border-width: .5rem;
+  border-radius: 5%;
+  margin: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  font-family: sans-serif;
+  color: #6366f1;
+  font-weight: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+li:active,.activeKey{
+  transform: translateY(.5rem) scale(0.97);
+}
+.beats{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer{
+  text-align: center;
+  font-size: 2rem;
+}
+span{
+  font-size: 1.5rem;
+  color: #6366f1;
+}
